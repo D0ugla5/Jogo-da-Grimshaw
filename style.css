@@ -1,0 +1,41 @@
+button{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    color: red;
+    border: 7px red dotted;
+    line-height: 100px;
+    font-size: 120px ;
+    border-top: 0;
+    border-left: 0;
+    vertical-align: middle;
+}
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
+ #bt21, #bt22, #bt20{
+
+    border-bottom: 0;
+ }
+h1{
+    color: black;
+}
+html{
+    background-color: black;
+    background-image: url("rdr2.jpg");
+}
+.X{
+    background: url("El\ rato.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.O{
+    background: url("Arthur_Morgan_holding_Lancaster_Repeater_RD2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+#tabuleiro{
+    background-color: transparent;
+    width: 390px;
+}
