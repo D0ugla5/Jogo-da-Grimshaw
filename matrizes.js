@@ -87,3 +87,17 @@
                 alert("Jogo finalizado\nVencedor: " + document.getElementById("bt02").innerText)
             }
         }
+        function reset(){
+            for (let i = 0; i < tabuleiro.length; i++) {
+                for (let j = 0; j < tabuleiro[i].length; j++) {
+                    let resetar = "bt" + i + "" + j;
+                    let botao = document.getElementById(resetar);
+                    botao.innerText = ""; // Limpa o nome dos botões
+                    botao.disabled = false; // Permiti clicar novamente
+                    botao.style.backgroundImage = ""; // Apaga a imagem de background
+                }
+            }
+            jogada = 1;
+         }
+        
+    

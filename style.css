@@ -9,6 +9,7 @@ button{
     border-top: 0;
     border-left: 0;
     vertical-align: middle;
+    cursor: url('pixil-frame-0.png') 32 32, auto; /* Ajuste as coordenadas x e y conforme necessário */
 }
 #bt02, #bt12, #bt22{
     border-right: 0;
@@ -19,10 +20,14 @@ button{
  }
 h1{
     color: black;
+    background-color: white;
+    height: 35px;
+    width: 560px;
 }
 html{
     background-color: black;
     background-image: url("rdr2.jpg");
+    cursor: url('pixil-frame-0.png') 32 32, auto; /* Ajuste as coordenadas x e y conforme necessário */
 }
 .X{
     background: url("El\ rato.webp");
@@ -38,4 +43,10 @@ html{
 #tabuleiro{
     background-color: transparent;
     width: 390px;
+}
+#reset{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    text-size-adjust: 50px;  
 }
